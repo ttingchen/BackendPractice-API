@@ -63,8 +63,8 @@ class Api extends React.Component {
 
     listItems = () =>
     this.state.datas.map(data => (
-      <div className="card" key={data.ID}>
-        <h1>{data.Name}</h1>
+      <div className="card" key={data.ScenicSpotID}>
+        <h1>{data.ScenicSpotName}</h1>
         <p>{data.Description}</p>
       </div>
     ));
