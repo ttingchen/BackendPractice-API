@@ -8,4 +8,4 @@ yarn install
 yarn start
 ```
 
-
+![](https://github.com/ttingchen/DcardInternHW/blob/main/demo.gif)
